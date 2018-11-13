@@ -9,6 +9,37 @@ body {
 }
 
 #map {
-  height: 100vh;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: 1;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
   width: 100vw;
+  height: 50px;
+  background-color: palevioletred;
+  z-index: 100;
+}
+
+#searchbar {
+  position: fixed;
+  top: 50px;
+  width: 20vw;
+  height: 300px;
+  background-color: green;
+  z-index: 100;
+  left: 80vw;
+}
+
+#myplaces {
+  position: fixed;
+  top: 400px;
+  width: 20vw;
+  height: 300px;
+  background-color: blueviolet;
+  z-index: 100;
+  left: 80vw;
 }
